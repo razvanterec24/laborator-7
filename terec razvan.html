@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pagina lab5</title>
+<style>
+body{background-color: lightblue;}
+h1{color: green;}
+h1{font-family: "Courier New", monospace;}
+h1{background-color: yellow;}
+h2{background-color: tomato;}
+#email{color: red;}
+#sport{border-style: ridge;}
+#drumetii{border-style: dotted;}
+#condus{border-style: dashed;}
+img{border-radius: 50px;}
+img{opacity: 0.7;}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#sport{color: brown;}
+#drumetii{color: brown;}
+#condus{color: brown;}
+</style>
+</head>
+<script>
+function myFunction() {
+  document.getElementById("nume").innerHTML = "Ing. Terec Razvan";
+  document.getElementById("sport").innerHTML="voluntariat";
+  document.getElementById("drumetii").innerHTML="internship";
+  document.getElementById("condus").innerHTML="angajare in domeniu";
+  document.getElementById('poza').src='poza2.jpg';
+  document.body.style.background ="green";
+  document.getElementById("poza").style.opacity = "0.5";
+  document.getElementById("poza").style.borderRadius="0%";
+  
+
+  
+}
+</script>
+<body>
+
+<h1 id="nume">Terec Razvan</h1>
+<img id="poza"src="Terec Razvan.jpg.jpg" alt="Poza" width'"500" height="600" >
+<button type="button" onclick="myFunction()">Alta viata</button>
+<p id="email">E-mail: terec_r@yahoo.com</p>
+<p id="an">2002</p>
+<p>Asteptari legate de educatie: Sa lucrez in IT dupa terminarea facultatii</p>
+
+<table>
+  <tr>
+    <th>Materie</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>Programarea calculatoarelor</td>
+    <td><a href=https://etti.utcluj.ro/files/FiseDisciplina/EaRo/04.pdf>link</a></td>
+  </tr>
+  <tr>
+    <td>Informatica aplicata</td>
+    <td><a href=https://etti.utcluj.ro/files/FiseDisciplina/EaRo/06.pdf>link</a></td>
+  </tr>
+  <tr>
+    <td>Componente si circuite pasive</td>
+    <td><a href=https://etti.utcluj.ro/files/FiseDisciplina/EaRo/05.pdf>link</a></td>
+  </tr>
+</table>
+<h2>Hobby-uri</h2>
+
+<ul>
+  <li id="sport">sport</li>
+  <li id="drumetii">drumetii</li>
+  <li id="condus">sa conduc</li>
+</ul>  
+
+</body>
+</html>
